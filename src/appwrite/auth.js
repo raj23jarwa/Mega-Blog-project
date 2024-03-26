@@ -34,7 +34,7 @@ export class AuthService {
         try {
 
         } catch (error) {
-            console.log("ppwrite service:: getCurrentUser :: error", error)
+            console.log("Appwrite service:: getCurrentUser :: error", error)
         }
         return null;
     }
@@ -48,5 +48,5 @@ export class AuthService {
     }
 }
 
-const authService = new AuthService
-export default authService
+const authService = new AuthService();
+export default authService;
